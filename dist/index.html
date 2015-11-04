@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gulp SVGs</title>
+  <link rel="stylesheet" href="/assets/stylesheets/styles-9159cf5c.css"/>
+
+  <script src="/assets/javascripts/lib/vendor-3fcfe0bd.js"></script>
+</head>
+<body>
+
+  <div class="hide">
+    <!-- If I were PHP -->
+    <!-- <?php include("assets/images/general-sprite/symbol/svg/sprite.symbol.svg"); ?> -->
+
+    <!-- If I were Craft -->
+    <!-- {% include "assets/images/general-sprite/symbol/svg/sprite.symbol.svg" %} -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 1000 1000" id="counseling"><path d="M296.8 606.5V304H111.5C58 304 14 348 14 401.8v292.6c0 53.6 44 97.5 97.5 97.5h48.8V938l146.3-146h243.8c53.6 0 97.5-44 97.5-97.5v-88.8c-3 1-7 1-10 1H297zm595-546.2h-439c-53.5 0-97.4 44-97.4 97.5V548h341.4L843 694.3V548h48.8c53.6 0 97.5-44 97.5-97.5V157.8c0-52.6-44-97.5-97.6-97.5z" class="ast0"/></symbol><symbol viewBox="0 0 1000 1000" id="funding"><path d="M435.2 117.4c63.4 0 162.8 5.5 220.7 30.3 19.2 8.3 71.6 38.6 85.4 47 5.5 2.7 47-5.6 60.7-5.6 5.6 0 14 3 16.7 5.6 5.5 2.8 11 19.3 5.5 27.6-5.5 5.5-13.8 33-5.5 47 16.6 30.2 44 102 52.4 135 5.6 19.4 5.6 41.5 19.4 52.5 5.5 5.5 16.6 8.3 22 11 22.2 2.8 55.3-13.8 71.8-2.8 30.3 35.8-2.8 121.3-24.8 135-22 14-47 0-49.7 30.4 11 8.3 24.8 33 22 47-2.7 11-19.2 22-30.2 19.2C849 660.8 769 760 747 782.2c8.2 19.3 24.7 69 11 88.3-5.6 5.5-33.2 8.3-49.8 8.3-24.8 2.8-49.7 2.8-66.2-5.5-16.6-8.3-27.6-38.6-47-44-22 0-41.3 5.4-60.6 5.4-58 0-132.4 0-171-2.8-24.8-5.6-38.6-8.4-52.4-3-19.3 8.4-33 30.4-52.4 38.7-24.8 11-82.8 2.8-102 0-5.6 5.5-8.4 0-11-5.5 0-33 5.4-85.5 2.7-96.6-11-44-49.7-80-66.2-124-11-27.7-13.7-63.5-22-94 0-13.7-2.8-30.2-2.8-44C49 481.6 16 476 7.6 448.4c16.6-11 47-22 52.4-41.4 8.3-13.8 11-44 19.3-66.2 22-49.7 58-107.6 102-138 83-63.4 204.3-85.4 254-85.4z" class="bst0"/></symbol><symbol viewBox="0 0 1000 1000" id="library"><path d="M817.5 255l-451-232.4C304-8.6 182.7 53.8 148 109.3c-14 20.8-14 41.6-14 52l7 527.3c0 10.4 14 27.8 27.8 34.7 24.3 14 406 253.2 416.3 260.2 7 3.5 14 7 21 7 6.8 0 10.3 0 17.2-3.6 10.4-7 17.3-17.4 17.3-28V397c0-10.3-7-20.7-17.3-27.7L214 140.3c3.4-10.4 24.2-27.8 55.4-45 34.7-17.4 62.4-10.5 69.4-10.5 0 0 395.5 211.6 406 218.5 10.3 7 13.8 7 13.8 17.3v523.8c0 27.8 27.8 38.2 45 38.2 21 0 41.7-17.3 41.7-38.2v-562c-7-13.5-14-24-27.8-27.4z" class="cst0"/></symbol><symbol viewBox="0 0 1000 1000" id="nonprofit"><path d="M857.8 747.6V505H520.4V280h116V9.6H365.8V280h112.4v225h-334v242.6H7.3v246h288.3v-246H183v-204h295.2v204h-123v246h288.2v-246h-123v-204h295.3v204h-109v246h284.7v-246z" class="dst0"/></symbol></svg>
+  </div>
+
+  <h1>Hello, welcome to Gulp SVGs!</h1>
+
+  <div class="main-torso">
+    <nav>
+      <ul>
+        <li>
+          <svg viewBox="0 0 100 100">
+             <use xlink:href="assets/images/general-sprite/symbol/svg/sprite.symbol.svg#counseling"></use>
+          </svg>
+        </li>
+        <li>
+          <svg viewBox="0 0 100 100">
+             <use xlink:href="assets/images/general-sprite/symbol/svg/sprite.symbol.svg#funding"></use>
+          </svg>
+        </li>
+        <li>
+          <svg viewBox="0 0 100 100">
+             <use xlink:href="#library"></use>
+          </svg>
+        </li>
+        <li>
+          <svg viewBox="0 0 100 100">
+             <use xlink:href="#nonprofit"></use>
+          </svg>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="/assets/javascripts/bundle-09b0e3c4.js"></script>
+</body>
+</html>
