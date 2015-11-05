@@ -1,7 +1,9 @@
 {
   "name": "gulp-svgs",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "svgo": "^0.5.6"
+  },
   "devDependencies": {
     "babelify": "6.2.0",
     "browserify": "11.0.1",
